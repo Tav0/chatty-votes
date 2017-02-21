@@ -1,0 +1,38 @@
+{
+  "name": "cs3984-react-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.7.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "connect-redis": "^3.1.0",
+    "jquery": "^3.1.1",
+    "react": "^15.3.2",
+    "react-bootstrap": "^0.30.5",
+    "react-chatview": "^0.1.1",
+    "react-dom": "^15.3.2",
+    "react-google-charts": "^1.2.1",
+    "react-redux": "^4.4.5",
+    "react-route": "^1.0.3",
+    "react-router": "^2.8.1",
+    "react-router-bootstrap": "^0.23.1",
+    "redux": "^3.6.0",
+    "redux-form": "^6.1.1",
+    "redux-thunk": "^2.1.0",
+    "socket.io": "^1.7.1",
+    "socket.io-client": "^1.7.1",
+    "sprintf-js": "^1.0.3",
+    "superagent": "^2.3.0",
+    "toastr": "^2.1.2"
+  },
+  "proxy": "http://localhost:3001",
+  "homepage": "/reactapp1",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
